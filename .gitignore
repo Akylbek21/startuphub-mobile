@@ -1,0 +1,59 @@
+# Root .gitignore for StartupHub Mobile
+
+# Dependencies
+node_modules/
+app-bootstrap/node_modules/
+
+# Expo / build artifacts
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# IDE/editor
+.idea/
+.vscode/
+.DS_Store
+
+# Environment files (do not commit secrets)
+.env
+.env.*
+*.env.local
+
+# Native generated folders (managed by EAS/Expo)
+ios/
+android/
+
+# Credentials / keys (never commit real ones)
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Metro cache
+.metro-health-check*
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Misc
+*.orig.*
+.kotlin/
+
+# Ignore service account JSON (Google Play)
+service-account-key.json
+
+# Ignore crash dumps
+*.stackdump
+
+# Security reminder:
+# If you add API keys, use app.config.js + process.env with eas.json env vars.
