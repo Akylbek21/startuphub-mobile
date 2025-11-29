@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "StartupHub",
+    "slug": "startuphub-mobile",
+    "scheme": "startuphubmobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "y",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.akylbek2111.startuphubmobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fe295f4b-3ee8-4764-bc8c-32e06c2c5a25"
+      }
+    },
+    "owner": "akylbek2111"
+  }
+}
