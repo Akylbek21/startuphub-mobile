@@ -1,0 +1,43 @@
+# Node and Expo
+node_modules/
+.expo/
+.expo-shared/
+dist/
+build/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Android / iOS builds (if any)
+android/
+ios/
+
+# Misc
+*.log
+
+# local fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# bundler
+.bundle
+
+# expo settings
+web-build/
+
+# project-specific
+.expo/*
